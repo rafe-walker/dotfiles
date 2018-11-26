@@ -11,3 +11,5 @@
 downloads
 images
 .gitconfig
+.esd_auth
+.config/pulse/
