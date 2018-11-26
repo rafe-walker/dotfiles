@@ -1,0 +1,13 @@
+.bash_logout
+.cache
+.histfile
+.hushlogin
+.local
+.mozilla
+.ssh
+.viminfo
+.Xauthority
+.zcompdump
+downloads
+images
+.gitconfig
