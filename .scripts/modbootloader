@@ -8,3 +8,4 @@ efibootmgr -c -d /dev/sda -p 1 -L "Arch Linux" -l /vmlinuz-linux -u 'quiet logle
 # /dev/sda1: UUID="8F07-CBC1" TYPE="vfat" PARTUUID="48864312-ce1c-2145-97aa-ef01740b96c5"
 # /dev/sda2: UUID="f24311ca-ce45-482e-9fc6-a87440f43f14" TYPE="swap" PARTUUID="b2de6658-f032-7b47-b837-b832dfbf8bb5"
 # /dev/sda3: UUID="48c4a48a-0c8a-49dc-bff9-3e8eebab41eb" TYPE="ext4" PARTUUID="52f3f981-d977-8849-b3c3-7e03ece71934"
+# kernel.nmi_watchdog = 0 removed for testing to drop error line from boot.

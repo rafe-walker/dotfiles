@@ -5,8 +5,8 @@ URxvt.font: xft:Hack-Regular:size=15
 URxvt.scrollBar: false
 
 ! special
-*.foreground:   #c5c8c6
-*.background:   #1d1f21
+*.foreground:   #f3f4f5
+*.background:   #2f343f
 *.cursorColor:  #c5c8c6
 
 ! black
@@ -41,3 +41,6 @@ URxvt.scrollBar: false
 *.color7:       #c5c8c6
 *.color15:      #ffffff
 
+! Create transparent background
+URxvt.depth: 32
+URxvt.background: [90]#2f343f
