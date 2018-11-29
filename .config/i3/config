@@ -222,3 +222,4 @@ bar {
 
 exec_always --no-startup-id feh --bg-scale /home/rafe/images/starwars.jpg
 exec_always --no-startup-id compton -b -f
+exec --no-startup-id xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
