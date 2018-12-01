@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-scale '/home/rafe/images/starwars.jpg' 
+feh --bg-scale '/home/rafe/images/cityscape_53.png' 

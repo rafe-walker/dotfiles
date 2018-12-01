@@ -1,0 +1,67 @@
+#  ____ _                _     ____  _               _   
+# / ___| |__   ___  __ _| |_  / ___|| |__   ___  ___| |_ 
+#| |   | '_ \ / _ \/ _` | __| \___ \| '_ \ / _ \/ _ \ __|
+#| |___| | | |  __/ (_| | |_   ___) | | | |  __/  __/ |_ 
+# \____|_| |_|\___|\__,_|\__| |____/|_| |_|\___|\___|\__|
+#
+
+# This file contains a quick reference to all my frequently used binds, key sequences and alias's.
+# Sorting is by program > type > action
+
+
+
+
+BASH
+# config files located /home/rafe .bashrc .bash_profile
+#######
+B-A Alias's
+--------------
+v=vim
+ls=exa
+sv=sudo vim
+SS=sudo systemctl
+p=sudo pacman
+
+B-B Binds
+-------------
+j= down bash history
+k= up bash history
+
+
+RANGER
+#######
+
+
+I3WM
+#######
+
+
+URXVT
+#######
+
+
+VIM
+#######
+V-K Key Sequences
+------------------
+w = forward one word
+b = back one word
+h = move left 1 character
+l = move right 1 character
+j = move down 1 line
+k = move up 1 line
+0 = beginning of line
+$ = end of line
+cw = change word
+yw = yank word (copy)
+p = paste
+u = undo last action
+dd = delete whole line
+cc = delete and insert mode
+A = add to end of line
+ci = change inside () or "" or ''
+f = find string - ; to find next , to find prev
+
+
+QUTEBROWSER
+############                                                      
