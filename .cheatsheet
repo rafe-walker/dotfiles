@@ -9,41 +9,52 @@
 # Sorting is by program > type > action
 
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BASH ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+'config files located /home/rafe .bashrc .bash_profile'
 
 
-BASH
-# config files located /home/rafe .bashrc .bash_profile
-#######
-B-A Alias's
---------------
-v=vim
-ls=exa
-sv=sudo vim
-SS=sudo systemctl
-p=sudo pacman
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Alias's ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+BA
 
-B-B Binds
--------------
+v = vim
+sv = sudo vim
+SS = sudo systemctl
+p = sudo pacman
+cfb = vim .bash_profile
+cfbrc = vim .bashrc
+cfi3 = vim .config/i3/config
+cfxr = vim .Xresources
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Binds ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+BB 
+
 j= down bash history
 k= up bash history
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ RANGER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Key Sequences ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+R-K
 
-RANGER
-#######
+j = move down
+k = move up
+l = into directory
+h = return to parent directory
+r = manually select how to run a file
+:open_with = same a r
+yy = copy a file
+pp = paste the copied file
+dd = cuts the file (move)
 
 
-I3WM
-#######
 
 
-URXVT
-#######
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ I3WM ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ URXVT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ VIM ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Key Sequences ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~# 
+VK 
 
-
-VIM
-#######
-V-K Key Sequences
-------------------
 w = forward one word
 b = back one word
 h = move left 1 character
@@ -53,15 +64,39 @@ k = move up 1 line
 0 = beginning of line
 $ = end of line
 cw = change word
+ce = change to end of word
 yw = yank word (copy)
-p = paste
+p = put to put text either deleted or yanked 
 u = undo last action
-dd = delete whole line
+U = undo whole line
+ctrl+R = redo last undo
+dd = delete whole line; can add number before to delete several lines
 cc = delete and insert mode
 A = add to end of line
 ci = change inside () or "" or ''
 f = find string - ; to find next , to find prev
+dw = delete a word
+x = delete what is under cursor
+d$ = delete from cursor to end of line; use de for end of word; user dw deletes to begining of next word.
+r = replace (followed by a new character)
+% = used to match ( { [ in functions for debugging
+:s/wrong/right = sub words; use :s/wrong/right/g to change all wrongs to rights
+:#,#s/old/new/g = between these two '#'line numbers change all occurences of old to new between those line numbers
+:%s/old/new/g = change every occurence in entire file
+:%s/old/new/gc = same as above but prompt before changing each time
+ctrl+g = show your location in a file and the file status
+3G = go to line 3; use any number for a line that exists
+G = go to end o file
+gg = go to the begining of the file
+:! = follow this with a shell command and it will run. No space
+o = enter a new line below the cursor and set insert mode
+O = enter a new line above the cursor and set insert mode
+R = replace mode; will overwrite as you type to adjust characters
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Notes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+VN
+
+To save part of a file use visual mode to select the text then press : followed by the w (write) command and a file name.
 
 
-QUTEBROWSER
-############                                                      
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ QUTEBROWSER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
