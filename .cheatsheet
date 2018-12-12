@@ -100,3 +100,11 @@ To save part of a file use visual mode to select the text then press : followed 
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ QUTEBROWSER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+
+
+General notes:
+
+nmcli device wifi list = to show what wifi is available 
+nmcli device wifi connect SSID password password
+

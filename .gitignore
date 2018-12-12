@@ -22,3 +22,8 @@ images
 .pki/
 repos
 .bash_history
+.config/google-chrome/
+.config/menus
+.config/mimeapps.list
+.wget-hsts
+build
